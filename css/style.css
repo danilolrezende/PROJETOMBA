@@ -1,0 +1,76 @@
+/* style.css - Estrutura básica */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, main, section, article, footer {
+  padding: 16px;
+}
+
+header {
+  background-color: #222;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f5f5f5;
+  min-height: 80vh;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
