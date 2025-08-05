@@ -1,4 +1,3 @@
-/* style.css - Estrutura básica */
 
 body {
   font-family: Arial, sans-serif;
@@ -73,4 +72,18 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 16px;
+}
+
+#form-cadastro, #form-login {
+  background-color: white;
+}
+
+.grupo-campo {
+  margin-bottom: 20px;
 }

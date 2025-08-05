@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <header>
+  <header class="container">
     <h1><i class="bi bi-box-arrow-in-right"></i> Login</h1>
     <nav>
       <a href="index.html">Home</a> |
@@ -17,24 +16,19 @@
       <a href="login.html">Login</a>
     </nav>
   </header>
-
-  <main>
+  <main class="container">
     <section>
-      <form>
-        <label>Email:</label><br>
-        <input type="email" required><br><br>
-
-        <label>Senha:</label><br>
-        <input type="password" required><br><br>
-
+      <form id="form-login">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha" required><br>
         <button type="submit"><i class="bi bi-door-open"></i> Entrar</button>
       </form>
     </section>
   </main>
-
-  <footer>
+  <footer class="container">
     <p>&copy; 2025 PC Master</p>
   </footer>
-
 </body>
 </html>
