@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>PC Master - Cadastro</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header class="container">
     <h1><i class="bi bi-person-plus"></i> Cadastro de Usuário</h1>
@@ -18,41 +20,49 @@
   </header>
   <main class="container">
     <section>
-      <form id="form-cadastro">
+      <form id="cadastroForm">
         <fieldset class="grupo-campo">
           <legend>Dados Pessoais</legend>
-          <label for="nome">Nome:</label><br>
-          <input type="text" id="nome" name="nome" required><br>
-          <label for="login">Login:</label><br>
-          <input type="text" id="login" name="login" required><br>
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email" required><br>
-          <label for="senha">Senha:</label><br>
-          <input type="password" id="senha" name="senha" required><br>
-          <label for="confirmar">Confirmar Senha:</label><br>
-          <input type="password" id="confirmar" name="confirmar" required><br>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+          <label for="confirmarSenha">Confirmar senha:</label>
+          <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Confirme sua senha">
         </fieldset>
         <fieldset class="grupo-campo">
           <legend>Endereço</legend>
-          <label for="cep">CEP:</label><br>
-          <input type="text" id="cep" name="cep" required><br>
-          <label for="rua">Rua:</label><br>
-          <input type="text" id="rua" name="rua" required><br>
-          <label for="numero">Número:</label><br>
-          <input type="text" id="numero" name="numero" required><br>
+          <label for="cep">CEP:</label>
+          <input type="text" id="cep" name="cep" placeholder="Digite seu CEP">
+
+          <label for="rua">Rua:</label>
+          <input type="text" id="rua" name="rua" placeholder="Digite o nome da rua">
+
+          <label for="numero">Número:</label>
+          <input type="text" id="numero" name="numero" placeholder="Digite o número">
           <label for="complemento">Complemento:</label><br>
-          <input type="text" id="complemento" name="complemento"><br>
-          <label for="bairro">Bairro:</label><br>
-          <input type="text" id="bairro" name="bairro" required><br>
-          <label for="cidade">Cidade:</label><br>
-          <input type="text" id="cidade" name="cidade" required><br>
+          <input type="text" id="complemento" name="complemento" placeholder="Digite o complemento"><br>
+          <label for="bairro">Bairro:</label>
+          <input type="text" id="bairro" name="bairro" placeholder="Digite o bairro">
+
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade">
+
         </fieldset>
         <button type="submit"><i class="bi bi-check-circle"></i> Cadastrar</button>
       </form>
     </section>
   </main>
+
+  <script src="js/cadastro.js"></script>
   <footer class="container">
     <p>&copy; 2025 PC Master</p>
   </footer>
 </body>
+
 </html>
