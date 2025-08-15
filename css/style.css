@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -88,7 +87,6 @@ button:hover {
   margin-bottom: 20px;
 }
 
-
 /* Melhorias no header */
 header.container {
   display: flex;
@@ -107,7 +105,7 @@ header h1 {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px; /* Aumentei o espaçamento para ficar mais harmônico */
   margin-top: 10px;
 }
 
@@ -130,7 +128,7 @@ nav a:hover {
   }
 }
 
-/* Adição de estilo para mensagem de boas-vindas personalizada */
+/* Estilo para mensagem de boas-vindas */
 #welcome-banner {
   background-color: #e0f7fa;
   border-left: 5px solid #00acc1;
@@ -138,4 +136,30 @@ nav a:hover {
   margin-bottom: 20px;
   font-style: italic;
   color: #006064;
+}
+
+/* Adição: destaque para link ativo no menu */
+nav a.active {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+/* Ajuste de imagens da listagem de produtos */
+.produto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Layout harmonioso dos produtos */
+.produto {
+  text-align: center;
+  padding: 16px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "nome": "Placa de Vídeo NVIDIA RTX 4070",
+    "marca": "NVIDIA",
+    "preco": 3499.90,
+    "memoria": "12GB GDDR6",
+    "clock": "2.48 GHz",
+    "imagem": "https://patoloco.com.br/arquivos/produtos/imagens_adicionais/46af9cc7e94a15b5aae5963efd8790a7f9befab6.jpeg"
+  },
+  {
+    "id": 2,
+    "nome": "Processador Intel Core i7-13700K",
+    "marca": "Intel",
+    "preco": 2599.00,
+    "nucleos": 16,
+    "threads": 24,
+    "imagem": "https://m.media-amazon.com/images/I/515lU6LNpsL.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Memória RAM Corsair Vengeance 16GB DDR4",
+    "marca": "Corsair",
+    "preco": 399.90,
+    "frequencia": "3200MHz",
+    "imagem": "https://m.media-amazon.com/images/I/91D1GM1NYKL._UF894,1000_QL80_.jpg"
+  }
+]
